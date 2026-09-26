@@ -1,0 +1,30 @@
+PIN verified successfully.
+Incorrect PIN.
+Attempts remaining: 2
+Incorrect PIN.
+Attempts remaining: 1
+Incorrect PIN.
+Too many incorrect attempts. Your card has been blocked.
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
+test_find_account (test_account.TestAccount.test_find_account) ... ok
+test_missing_account (test_account.TestAccount.test_missing_account) ... ok
+test_correct_pin (test_auth.TestAuth.test_correct_pin) ... ok
+test_three_wrong_pins (test_auth.TestAuth.test_three_wrong_pins) ... ok
+test_deposit (test_transactions.TestTransactions.test_deposit) ... ok
+test_insufficient_balance (test_transactions.TestTransactions.test_insufficient_balance) ... ok
+test_transfer (test_transactions.TestTransactions.test_transfer) ... ok
+test_withdraw (test_transactions.TestTransactions.test_withdraw) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

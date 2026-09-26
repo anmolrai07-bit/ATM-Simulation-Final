@@ -1,0 +1,73 @@
+{
+    "users": {
+        "757925130822": {
+            "name": "Anmol Rai",
+            "account": "SB967240",
+            "card_type": "Platinum",
+            "pin": "1115",
+            "balance": 1900000,
+            "daily_limit": 100000,
+            "withdrawn_today": 100000,
+            "withdraw_date": "26-09-2026",
+            "blocked": false,
+            "transactions": [
+                {
+                    "date": "26-09-2026 16:11:27",
+                    "type": "Account Opening",
+                    "amount": 1000000,
+                    "balance": 1000000
+                },
+                {
+                    "date": "26-09-2026 16:12:01",
+                    "type": "Cash Deposit",
+                    "amount": 1000000,
+                    "balance": 2000000
+                },
+                {
+                    "date": "26-09-2026 16:12:17",
+                    "type": "Cash Withdrawal",
+                    "amount": 100000,
+                    "balance": 1900000
+                }
+            ]
+        },
+        "224357188639": {
+            "name": "Anmol Rai",
+            "account": "SB275482",
+            "card_type": "Platinum",
+            "pin": "2807",
+            "balance": 280000,
+            "daily_limit": 100000,
+            "withdrawn_today": 20000,
+            "withdraw_date": "26-09-2026",
+            "blocked": true,
+            "transactions": [
+                {
+                    "date": "26-09-2026 20:27:23",
+                    "type": "Account Opening",
+                    "amount": 100000,
+                    "balance": 100000
+                },
+                {
+                    "date": "26-09-2026 20:28:25",
+                    "type": "Cash Withdrawal",
+                    "amount": 10000,
+                    "balance": 90000
+                },
+                {
+                    "date": "26-09-2026 20:28:43",
+                    "type": "Cash Withdrawal",
+                    "amount": 10000,
+                    "balance": 80000
+                },
+                {
+                    "date": "26-09-2026 20:29:00",
+                    "type": "Cash Deposit",
+                    "amount": 200000,
+                    "balance": 280000
+                }
+            ]
+        }
+    },
+    "atm_cash": 1129000
+}
