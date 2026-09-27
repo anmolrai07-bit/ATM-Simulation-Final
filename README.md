@@ -53,15 +53,38 @@ python -m unittest discover -s tests -v
 
 ## Project Structure
 ```text
-main.py
-atm/
-data/
-tests/
-docs/
-README.md
-statement.md
-requirements.txt
-.gitignore
+ATM-Simulation-Python
+│
+├── 📁 atm
+│   ├── __init__.py
+│   ├── account.py
+│   ├── auth.py
+│   ├── card.py
+│   ├── machine.py
+│   ├── storage.py
+│   └── transactions.py
+│
+├── 📁 data
+│   └── atm_data.json
+│
+├── 📁 docs
+│   ├── architecture.md
+│   ├── workflow.md
+│   ├── diagrams.md
+│   ├── design_decisions.md
+│   └── test_results.txt
+│
+├── 📁 tests
+│   ├── __init__.py
+│   ├── test_account.py
+│   ├── test_auth.py
+│   └── test_transactions.py
+│
+├── 📄 .gitignore
+├── 📄 README.md
+├── 📄 main.py
+├── 📄 requirements.txt
+└── 📄 statement.md
 ```
 
 ## Documentation
